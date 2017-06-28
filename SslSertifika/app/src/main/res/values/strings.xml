@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SSL</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_search">Ara</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_ssl">SSL Nedir?</string>
+    <string name="nav_item_ev_ssl">EV SSL Nedir?</string>
+    <string name="nav_item_dv_ssl">DV SSL Nedir?</string>
+    <string name="nav_item_ov_ssl">OV SSL Nedir?</string>
+    <string name="nav_item_multi_ssl">MULTİ DOMAİN SSL</string>
+    <string name="nav_item_wildcard_ssl">WİLDCARD SSL</string>
+    <string name="nav_item_markalar">Markalar</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_ssl</item>
+        <item>@string/nav_item_ev_ssl</item>
+        <item>@string/nav_item_dv_ssl</item>
+        <item>@string/nav_item_ov_ssl</item>
+        <item>@string/nav_item_multi_ssl</item>
+        <item>@string/nav_item_wildcard_ssl</item>
+        <item>@string/nav_item_markalar</item>
+
+
+    </string-array>
+
+    <string name="title_markalar">Markalar</string>
+    <string name="title_wildcard_ssl">WİLDCARD SSL</string>
+    <string name="title_multi_ssl">MULTİ DOMAİN SSL</string>
+    <string name="title_ov_ssl">OV SSL Nedir?</string>
+    <string name="title_dv_ssl">DV SSL Nedir?</string>
+    <string name="title_ev_ssl">EV SSL Nedir?</string>
+    <string name="title_ssl">SSL Nedir?</string>
+
+
+    <string-array name="ssl_titles">
+        <item>@string/title_ssl</item>
+        <item>@string/title_ev_ssl</item>
+        <item>@string/title_dv_ssl</item>
+        <item>@string/title_ov_ssl</item>
+        <item>@string/title_multi_ssl</item>
+        <item>@string/title_wildcard_ssl</item>
+        <item>@string/title_markalar</item>
+    </string-array>
+
+
+    <string name="base_fragment_loading_ssl">SSL bilgileri yükleniyor...</string>
+
+
+    <string name="markadetay_buynow">HEMEN AL</string>
+</resources>

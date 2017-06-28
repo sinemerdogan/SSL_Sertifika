@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+
+    <!--base fragment-->
+    <dimen name="base_fragment_title_text_size">24sp</dimen>
+    <dimen name="base_fragment_content_text_size">14sp</dimen>
+    <dimen name="base_fragment_padding_top">30dp</dimen>
+    <dimen name="base_fragment_progress">100dp</dimen>
+    <dimen name="base_fragment_progress_text_size">18sp</dimen>
+    <dimen name="base_fragment_image_progress">40dp</dimen>
+    <dimen name="base_fragment_content_padding">20dp</dimen>
+
+
+    <!--marka detay fragment-->
+    <dimen name="markadetay_loading_marka_progress_size">50dp</dimen>
+
+    <dimen name="markadetay_star_size">20dp</dimen>
+    <dimen name="markadetay_parent_padding">10dp</dimen>
+    <dimen name="markadetay_star_margin_left">5dp</dimen>
+    <dimen name="markadetay_content_text_size">18sp</dimen>
+    <dimen name="markadetay_price_text_size">16sp</dimen>
+    <dimen name="markadetay_buynow_width">100dp</dimen>
+    <dimen name="markadetay_buynow_height">60dp</dimen>
+    <dimen name="markadetay_item_sslname_tv_size">250dp</dimen>
+
+
+    <!--Mark fragment-->
+    <dimen name="marka_item_image_width">300dp</dimen>
+    <dimen name="marka_item_image_height">75dp</dimen>
+
+
+
+</resources>

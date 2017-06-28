@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:paddingTop="@dimen/base_fragment_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/colorWhite">
+    <LinearLayout
+        android:id="@+id/base_fragment_loading_linlay"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/base_fragment_progress"
+            android:layout_height="@dimen/base_fragment_progress"/>
+        <TextView
+            android:paddingTop="10dp"
+            android:textSize="@dimen/base_fragment_progress_text_size"
+            android:text="@string/base_fragment_loading_ssl"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/base_fragment_main_linlay"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="deneme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/base_fragment_title_tv"
+            android:textSize="@dimen/base_fragment_title_text_size"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColorLink="?attr/actionMenuTextColor"
+            android:fontFamily="serif" />
+        <ProgressBar
+            android:id="@+id/base_fragment_image_progress"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="@dimen/base_fragment_image_progress"
+            android:layout_height="@dimen/base_fragment_image_progress"/>
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/base_fragment_imageview"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:scrollbars = "vertical"
+            android:layout_width="match_parent"
+            android:id="@+id/base_fragment_content_tv"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:padding="@dimen/base_fragment_content_padding"
+            android:fontFamily="sans-serif"
+            android:textColorLink="?attr/actionMenuTextColor" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+

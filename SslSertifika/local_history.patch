@@ -1,0 +1,17 @@
+Index: app/src/main/res/layout/fragment_musteri.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/fragment_musteri.xml	(revision )
++++ app/src/main/res/layout/fragment_musteri.xml	(revision )
+@@ -22,8 +22,7 @@
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentLeft="true"
+-        android:layout_alignParentStart="true"
+-        android:numeric="integer" />
++        android:layout_alignParentStart="true" />
+ 
+     <TableLayout
+         android:layout_width="match_parent"

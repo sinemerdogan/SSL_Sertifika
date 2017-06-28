@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gri.adminandroid.fragment.marka.MarkaFragment"
+    android:background="@color/colorWhite"
+    android:padding="0dp"
+    android:weightSum="1">
+
+
+    <ListView
+        android:divider="#00000000"
+        android:id="@+id/marka_listview"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </ListView>
+
+</LinearLayout>

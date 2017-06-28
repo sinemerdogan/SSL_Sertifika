@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#555</color>
+    <color name="colorPrimaryDark">#555</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#555</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGrayLight">#b6b6b6</color>
+
+
+    <color name="colorMarkaDetayItem1">#ececec</color>
+    <color name="colorMarkaDetayItem2">#a5ffdc</color>
+</resources>

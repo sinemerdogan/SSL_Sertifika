@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:id="@+id/m_vwJokeLayout"
+              android:background="#ffffff"
+              android:padding="0dp"
+              android:weightSum="1">
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/markadetay_marka_imageview"/>
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/markadetay_loading_marka_progress"
+        android:layout_width="@dimen/markadetay_loading_marka_progress_size"
+        android:layout_height="@dimen/markadetay_loading_marka_progress_size"/>
+    <ListView
+        android:divider="#00000000"
+        android:id="@+id/markadetay_listview"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </ListView>
+
+
+</LinearLayout>
